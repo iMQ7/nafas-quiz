@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>معلومات أولية لأولياء الأمور حول اختبار نافس</title>
+  <style>
+    body {
+      background: #0d1b2a;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+      margin: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 26px;
+      color: #bbdefb;
+    }
+    .intro {
+      background: #1b263b;
+      padding: 18px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    .question {
+      background: #1b263b;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    .question h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+    .options label {
+      display: block;
+      margin: 8px 0;
+      cursor: pointer;
+      padding: 8px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .options label:hover {
+      background: #222f44;
+    }
+    input[type="radio"] {
+      margin-left: 10px;
+      transform: scale(1.2);
+    }
+    button {
+      display: block;
+      width: 240px;
+      margin: 30px auto;
+      padding: 12px;
+      background: #415a77;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #33415c;
+    }
+    .answer {
+      margin-top: 10px;
+      padding: 12px;
+      background: #2a3b55;
+      border-radius: 8px;
+      display: none;
+      color: #e3f2fd;
+      font-weight: bold;
+    }
+    .alert {
+      background: #ff6b6b;
+      color: white;
+      padding: 12px;
+      border-radius: 8px;
+      text-align: center;
+      margin: 15px auto;
+      max-width: 500px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>معلومات أولية لأولياء الأمور حول اختبار نافس</h1>
+
+    <div class="intro">
+      عزيزي ولي الأمر،<br>
+      يُعد اختبار "نافس" أداة تشخيصية وطنية تهدف إلى قياس تحصيل الطلاب في المواد الأساسية (اللغة العربية، الرياضيات، العلوم) لتحسين جودة التعليم. لا تُحتسب نتائجه ضمن المعدل الدراسي، وهو إلزامي للطلاب في الصفوف: الثالث والسادس الابتدائي، والثالث المتوسط.
+    </div>
+
+    <!-- الأسئلة 1 إلى 12 -->
+    <div class="question">
+      <h3>1. ما هو اختبار نافس؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q1" value="أ" /> أ. اختبار لقياس الذكاء العاطفي</label>
+        <label><input type="radio" name="q1" value="ب" /> ب. اختبار وطني لقياس تحصيل الطلاب في المواد الأساسية</label>
+        <label><input type="radio" name="q1" value="ج" /> ج. برنامج ترفيهي على التلفاز</label>
+        <label><input type="radio" name="q1" value="د" /> د. تطبيق للألعاب الإلكترونية</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: ب. اختبار وطني لقياس تحصيل الطلاب في المواد الأساسية</div>
+    </div>
+
+    <div class="question">
+      <h3>2. من يُنظم اختبار نافس؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q2" value="أ" /> أ. وزارة التعليم السعودية</label>
+        <label><input type="radio" name="q2" value="ب" /> ب. جامعة الملك سعود</label>
+        <label><input type="radio" name="q2" value="ج" /> ج. هيئة تقويم التعليم والتدريب</label>
+        <label><input type="radio" name="q2" value="د" /> د. وزارة الصحة</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: ج. هيئة تقويم التعليم والتدريب</div>
+    </div>
+
+    <div class="question">
+      <h3>3. هل تُحتسب درجات نافس في المعدل الدراسي؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q3" value="أ" /> أ. نعم، تُضاف إلى درجات الفصل</label>
+        <label><input type="radio" name="q3" value="ب" /> ب. لا، هو تقييم تشخيصي غير ربحي</label>
+        <label><input type="radio" name="q3" value="ج" /> ج. فقط في بعض المناطق</label>
+        <label><input type="radio" name="q3" value="د" /> د. يعتمد على أداء المدرسة</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: ب. لا، هو تقييم تشخيصي غير ربحي</div>
+    </div>
+
+    <div class="question">
+      <h3>4. من هم الطلاب المستهدفون باختبار نافس؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q4" value="أ" /> أ. جميع طلاب التعليم العام</label>
+        <label><input type="radio" name="q4" value="ب" /> ب. طلاب المرحلة الثانوية فقط</label>
+        <label><input type="radio" name="q4" value="ج" /> ج. طلاب الصف الثالث والسادس الابتدائي، والثالث المتوسط</label>
+        <label><input type="radio" name="q4" value="د" /> د. طلاب المدارس الخاصة فقط</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: ج. طلاب الصف الثالث والسادس الابتدائي، والثالث المتوسط</div>
+    </div>
+
+    <div class="question">
+      <h3>5. متى أُجري اختبار نافس لأول مرة على الطلاب؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q5" value="أ" /> أ. 2019</label>
+        <label><input type="radio" name="q5" value="ب" /> ب. 2020</label>
+        <label><input type="radio" name="q5" value="ج" /> ج. 2021</label>
+        <label><input type="radio" name="q5" value="د" /> د. 2022</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: د. 2022</div>
+    </div>
+
+    <div class="question">
+      <h3>6. ما اسم المنصة الرسمية التي يُجرى عليها اختبار نافس؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q6" value="أ" /> أ. مدرستي</label>
+        <label><input type="radio" name="q6" value="ب" /> ب. توكلنا</label>
+        <label><input type="radio" name="q6" value="ج" /> ج. قياس</label>
+        <label><input type="radio" name="q6" value="د" /> د. المنصة الوطنية للتقويم والتدريب</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: د. المنصة الوطنية للتقويم والتدريب</div>
+    </div>
+
+    <div class="question">
+      <h3>7. كم تستغرق مدة الاختبار؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q7" value="أ" /> أ. 30 دقيقة</label>
+        <label><input type="radio" name="q7" value="ب" /> ب. 45 دقيقة</label>
+        <label><input type="radio" name="q7" value="ج" /> ج. من ساعة إلى 90 دقيقة</label>
+        <label><input type="radio" name="q7" value="د" /> د. ساعتان</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: ج. من ساعة إلى 90 دقيقة</div>
+    </div>
+
+    <div class="question">
+      <h3>8. هل الاختبار إلزامي؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q8" value="أ" /> أ. نعم، لجميع الطلاب في الصفوف المستهدفة</label>
+        <label><input type="radio" name="q8" value="ب" /> ب. لا، اختياري</label>
+        <label><input type="radio" name="q8" value="ج" /> ج. فقط للمدارس الحكومية</label>
+        <label><input type="radio" name="q8" value="د" /> د. حسب رغبة ولي الأمر</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: أ. نعم، لجميع الطلاب في الصفوف المستهدفة</div>
+    </div>
+
+    <div class="question">
+      <h3>9. أي مادة لا يشملها اختبار نافس؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q9" value="أ" /> أ. اللغة العربية</label>
+        <label><input type="radio" name="q9" value="ب" /> ب. الرياضيات</label>
+        <label><input type="radio" name="q9" value="ج" /> ج. العلوم</label>
+        <label><input type="radio" name="q9" value="د" /> د. التربية البدنية</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: د. التربية البدنية</div>
+    </div>
+
+    <div class="question">
+      <h3>10. ما نوع الأسئلة في نافس؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q10" value="أ" /> أ. مقالية</label>
+        <label><input type="radio" name="q10" value="ب" /> ب. اختيار من متعدد (إجابة واحدة)</label>
+        <label><input type="radio" name="q10" value="ج" /> ج. صوتية</label>
+        <label><input type="radio" name="q10" value="د" /> د. جميع ما سبق</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: ب. اختيار من متعدد (إجابة واحدة)</div>
+    </div>
+
+    <div class="question">
+      <h3>11. ما الهدف من نتائج نافس؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q11" value="أ" /> أ. تصنيف الطلاب</label>
+        <label><input type="radio" name="q11" value="ب" /> ب. منح جوائز</label>
+        <label><input type="radio" name="q11" value="ج" /> ج. تحسين جودة التعليم على مستوى الفصل والمدرسة</label>
+        <label><input type="radio" name="q11" value="د" /> د. تقييم أولياء الأمور</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: ج. تحسين جودة التعليم على مستوى الفصل والمدرسة</div>
+    </div>
+
+    <div class="question">
+      <h3>12. كيف يمكنني دعم ابني في اختبار نافس؟</h3>
+      <div class="options">
+        <label><input type="radio" name="q12" value="أ" /> أ. بالضغط عليه للحصول على درجات عالية</label>
+        <label><input type="radio" name="q12" value="ب" /> ب. بتوفير بيئة هادئة وتشجيعه على المحاولة</label>
+        <label><input type="radio" name="q12" value="ج" /> ج. بحجز دورات خارجية باهظة</label>
+        <label><input type="radio" name="q12" value="د" /> د. لا حاجة لأي دعم</label>
+      </div>
+      <div class="answer">الإجابة الصحيحة: ب. بتوفير بيئة هادئة وتشجيعه على المحاولة</div>
+    </div>
+
+    <div class="alert" id="alert">لم تجب على جميع الأسئلة.</div>
+    <button id="showAnswers">عرض الإجابات النموذجية</button>
+  </div>
+
+  <script>
+    document.getElementById('showAnswers').addEventListener('click', function() {
+      const totalQuestions = 12;
+      let answeredCount = 0;
+
+      // التحقق من كل سؤال
+      for (let i = 1; i <= totalQuestions; i++) {
+        const selected = document.querySelector(`input[name="q${i}"]:checked`);
+        if (selected) {
+          answeredCount++;
+        }
+      }
+
+      const alertBox = document.getElementById('alert');
+      const answers = document.querySelectorAll('.answer');
+
+      if (answeredCount === totalQuestions) {
+        // إخفاء التنبيه
+        alertBox.style.display = 'none';
+        // عرض الإجابات
+        answers.forEach(el => el.style.display = 'block');
+        this.textContent = 'إخفاء الإجابات النموذجية';
+        this.onclick = function() {
+          answers.forEach(el => el.style.display = 'none');
+          this.textContent = 'عرض الإجابات النموذجية';
+        };
+      } else {
+        // إظهار التنبيه
+        alertBox.style.display = 'block';
+        // إخفاء الإجابات إن كانت ظاهرة
+        answers.forEach(el => el.style.display = 'none');
+      }
+    });
+  </script>
+</body>
+</html>
+
